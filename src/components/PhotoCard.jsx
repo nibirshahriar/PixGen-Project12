@@ -1,10 +1,10 @@
-import { Card } from "@heroui/react";
+import { Button, Card, Chip } from "@heroui/react";
 import Image from "next/image";
 import { FaDownload, FaHeart } from "react-icons/fa";
 
 const PhotoCard = ({ photo }) => {
   return (
-    <Card className="border rounded-xl p-4 shadow-md mt-4">
+    <Card className="border rounded-xl p-4 mt-4">
       <div className="relative w-full aspect-square">
         <Image
           src={photo.imageUrl}
@@ -13,6 +13,7 @@ const PhotoCard = ({ photo }) => {
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="object-cover w-full rounded-md"
         />
+        <Chip className="absolute top-2 right-2">{photo.category}</Chip>
       </div>
       <div>
         <h2 className="font-medium">{photo.title}</h2>
@@ -33,6 +34,9 @@ const PhotoCard = ({ photo }) => {
           <p>{photo.downloads}</p>
         </div>
       </div>
+      <Button variant="outline" className="w-full mt-4">
+        View
+      </Button>
     </Card>
   );
 };
