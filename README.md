@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📸 PixGen – AI Powered Photo Sharing Platform
 
-## Getting Started
+## 🌐 Live Demo
 
-First, run the development server:
+🔗 https://pixgen-project12-git-main-nibir1891-6502s-projects.vercel.app
+
+---
+
+## 📖 Project Overview
+
+PixGen is a modern AI-powered photo sharing platform built with Next.js. Users can browse photos by category, create accounts, sign in securely, and manage their profiles easily.
+
+This project focuses on modern UI design, authentication, responsive layouts, and dynamic filtering functionality.
+
+---
+
+## ✨ Features
+
+- 🔐 User Authentication with Better Auth
+- 👤 Sign Up & Sign In System
+- 🖼️ Dynamic Photo Gallery
+- 🏷️ Category-Based Filtering
+- ✏️ Update User Profile
+- 📱 Fully Responsive Design
+- ⚡ Fast Performance with Next.js
+- 🎨 Beautiful UI with HeroUI & Tailwind CSS
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- Next.js 15
+- React.js
+- Tailwind CSS
+- HeroUI
+
+### Authentication
+- Better Auth
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src/
+ ├── app/
+ ├── components/
+ ├── lib/
+ ├── public/
+ └── styles/
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/pixgen.git
+```
+
+### 2️⃣ Go To Project Folder
+
+```bash
+cd pixgen
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔑 Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file in the root directory:
 
-## Learn More
+```env
+BETTER_AUTH_SECRET=your_secret
+BETTER_AUTH_URL=http://localhost:3000
+DATABASE_URL=your_database_url
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed on Vercel.
 
-## Deploy on Vercel
+```bash
+vercel deploy
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Learning Outcomes
+
+- Next.js App Router
+- Authentication Flow
+- Dynamic Filtering
+- Search Params
+- Client & Server Components
+- Responsive UI Design
+
+---
+
+## 🔮 Future Improvements
+
+- ❤️ Like System
+- 💬 Comment System
+- 📤 Photo Upload Feature
+- 🔎 Search Functionality
+- 🌙 Dark Mode
+- 📊 User Dashboard
+
+---
+
+## 👨‍💻 Author
+
+### Nibir Hasan
+
+- GitHub: https://github.com/your-username
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
