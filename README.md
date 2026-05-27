@@ -130,9 +130,9 @@ vercel deploy
 
 ## 👨‍💻 Author
 
-### Nibir Hasan
+### Nibir Shahriar
 
-- GitHub: https://github.com/your-username
+- GitHub: https://github.com/nibirshahriar
 
 ---
 
